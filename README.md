@@ -6,6 +6,17 @@ To set up the project, follow these steps:
 
 2. Run the following commands to set up the project dependencies:
 
+```
+  yarn init -y
+  yarn add apollo-server-express express @apollo/client
+  npm install graphql
+  yarn add graphql
+  npm install react
+  yarn add react
+```
+
+Create two files in the project directory with name index.js and server.js and copy the code.
+
 # Running the Server
 
 To run the server, follow these steps:
