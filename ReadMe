@@ -1,0 +1,28 @@
+Make a project directory then run the following commands
+
+yarn init -y
+yarn add apollo-server-express express @apollo/client
+npm install graphql
+yarn add graphql
+npm install react
+yarn add react
+
+Create two files in the project directory with name index.js and server.js and copy the code.
+
+Once you have ecexuted the commands above, run the following in the two separate terminals. Make sure you are in the right directory of the project
+
+node server.js
+
+node index.js
+
+Open a web browser and visit http://localhost:4000/graphql. You should see the GraphQL Playground, indicating that the server is running successfully.
+
+Put the following in the query in the playground
+
+query {
+posts {
+id
+title
+content
+}
+}
