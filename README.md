@@ -43,7 +43,13 @@ To query data from the server, follow these steps:
 
 1. In the GraphQL Playground, located at http://localhost:4000/graphql, enter the following query:
 
-`query { posts { id title content } }`
+`  query { 
+    posts { 
+      id 
+      title
+      content 
+    } 
+  }`
 
 2. Press the play button or hit `Ctrl + Enter` to execute the query.
 
