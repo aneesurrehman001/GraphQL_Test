@@ -21,11 +21,7 @@ Create two files in the project directory with name index.js and server.js and c
 
 To run the server, follow these steps:
 
-1. Create two files in the project directory named `index.js` and `server.js`.
-
-2. Copy the code provided for each file.
-
-3. Open a separate terminal for each of the following commands and make sure you are in the project directory:
+1. Open a separate terminal for each of the following commands and make sure you are in the project directory:
 
 - Terminal 1:
 
@@ -35,7 +31,7 @@ To run the server, follow these steps:
 
   `node index.js`
 
-4. Open a web browser and visit http://localhost:4000/graphql. You should see the GraphQL Playground, indicating that the server is running successfully.
+2. Open a web browser and visit http://localhost:4000/graphql. You should see the GraphQL Playground, indicating that the server is running successfully.
 
 # Querying Data
 
