@@ -21,6 +21,7 @@ To run the server, follow these steps:
   `node server.js`
 
 - Terminal 2:
+
   `node index.js`
 
 4. Open a web browser and visit http://localhost:4000/graphql. You should see the GraphQL Playground, indicating that the server is running successfully.
@@ -31,13 +32,7 @@ To query data from the server, follow these steps:
 
 1. In the GraphQL Playground, located at http://localhost:4000/graphql, enter the following query:
 
-query {
-posts {
-id
-title
-content
-}
-}
+`query { posts { id title content } }`
 
 2. Press the play button or hit `Ctrl + Enter` to execute the query.
 
