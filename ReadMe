@@ -18,14 +18,10 @@ To run the server, follow these steps:
 
 - Terminal 1:
 
-  ```
-  node server.js
-  ```
+  `node server.js`
 
 - Terminal 2:
-  ```
-  node index.js
-  ```
+  `node index.js`
 
 4. Open a web browser and visit http://localhost:4000/graphql. You should see the GraphQL Playground, indicating that the server is running successfully.
 
