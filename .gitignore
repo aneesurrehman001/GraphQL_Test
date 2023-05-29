@@ -3,3 +3,5 @@
 
 # Ignore package lock files
 yarn.lock
+package.json
+package-lock.json
